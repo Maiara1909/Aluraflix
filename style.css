@@ -1,5 +1,47 @@
 body{
+    background-color: rgba(236, 15, 15, 0.925);
+    color:rgb(105, 10, 26);
+font-family: Playwrite Hrvatska Lijeva;
+}
 
-    color: blueviolet;
-    background-color: antiquewhite;
+.chamada{
+    background-color: rgb(139, 4, 4);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+}
+header{
+    font-size: 30px;
+    padding-left: 20px;
+}
+img{
+    height: 200px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    background-color: rgb(73, 11, 47);
+}
+.categoria-videos{
+    display: flex; 
+    overflow-x: auto;
+    gap: 10px;
+}
+h2{
+    font-size: 30px;
 }
